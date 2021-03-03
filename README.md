@@ -24,34 +24,7 @@ Note, that paths never fork. This means, that if there are three or more path en
 Installation
 ------------
 
-Copy the two files chain_paths.inx and 
-chain_paths.py to your computer:
-
-Ubuntu / SUSE
-* ~/.config/inkscape/extensions/ or
-* /usr/share/inkscape/extensions/
-
-Arch Linux:
-* pacman -S inkscape
-* git clone https://github.com/fablabnbg/inkscape-chain-paths.git
-* cd inkscape-master
-* sudo python2 setup.py build && sudo python2 setup.py install
-* sudo cp chain_paths.* /usr/share/inkscape/extensions/
-
-Windows: 
-* Download https://github.com/fablabnbg/inkscape-chain-paths/archive/master.zip
-* Navigate to your Downloads folder and double-click on **inkscape-chain-paths-master.zip**
-* Download and install the free test version of **winzip** from http://www.winzip.com, if needed.
-* Click open the **inkscape-chain-paths-master** folder.
-* Select the following two items (with Ctrl-Click): **chain_paths.inx**, and **chain_paths.py**
-* Extract to My Computer **C:\Program Files\Inkscape\share\extensions**
-
-
-Mac OS X:
-
-Copy the two files chain_paths.inx and chain_paths.py to your computer:
-* ~/.config/inkscape/extensions/ or
-*  /Applications/Inkscape.app/Contents/Resources/extensions/ .
+Copy the two files chain_paths.inx and chain_paths.py into the directory specified at Inkscape Preferences > System: User extensions. After a restart of Inkscape, the new extension will be available.
 
 To get the files, you can right click on the 'RAW' button and use your file managers 'save as' function.
 Please check the size of the files. If the chain_paths.inx file is more than 1kb, or has more than 33 lines, you probably saved the webpage containing the file, instead of the file itself.
